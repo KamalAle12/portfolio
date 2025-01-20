@@ -1,0 +1,35 @@
+.vertical-timeline-element--work .timeline-video {
+    width: 100%;
+    /* Make it responsive to the container */
+    height: auto;
+    /* Adjust height proportionally */
+    max-width: 400px;
+    /* Limit the width for smaller videos */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for aesthetics */
+    margin: 0 auto;
+    /* Center the video within the container */
+}
+
+.vertical-timeline-element--work {
+    padding: 10px;
+    /* Reduce padding for smaller cards */
+    font-size: 0.9rem;
+    /* Adjust font size */
+}
+
+.vertical-timeline-element-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#ar-projects {
+    padding: 0 10px;
+    /* Add padding around the container */
+}
+
+h1 {
+    margin-bottom: 30px;
+}
