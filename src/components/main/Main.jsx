@@ -32,14 +32,14 @@ const Main = () => {
           <motion.button 
             className="btn btn-color-1 hover:bg-white hover:text-black border border-1 border-black rounded-md bg-slate-600 p-2"
             whileHover={{ scale: 1.1 }}
-            onClick={() => window.location.href = './#projects'}
+            onClick={() => window.location.href = './'}
           >
             View Projects
           </motion.button>
           <motion.button 
             className="btn btn-color-2 hover:bg-white hover:text-black border border-1 border-black rounded-md bg-slate-600 p-2"
             whileHover={{ scale: 1.1 }}
-            onClick={() => window.location.href = './#about'}
+            onClick={() => window.location.href = './'}
           >
             About Me
           </motion.button>
